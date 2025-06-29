@@ -14,7 +14,7 @@ add_action('login_enqueue_scripts', 'my_custom_login_logo');
 
 
 
-// When click logo then go action to home page
+// When you click the logo, then goes to the home page
 function my_custom_login_logo_url() {
     return home_url();
 }
